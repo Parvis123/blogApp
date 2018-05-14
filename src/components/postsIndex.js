@@ -13,7 +13,7 @@ class PostsIndex extends Component {
 	}
 	
 	componentDidMount() { 
-		this.props.fetchPosts
+		this.props.fetchPosts()
 	}
 
 	render() {
